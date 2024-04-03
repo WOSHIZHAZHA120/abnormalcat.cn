@@ -102,6 +102,14 @@ const supportPageLink = useLink({
 
 		<n-divider>模型玩法介绍</n-divider>
 
-		<iframe class="border-none w-full h-200" src="https://player.bilibili.com/player.html?aid=1052071398"/>
+		<n-grid :x-gap="10" :y-gap="10" cols="1 s:2" responsive="screen">
+			<n-grid-item>
+				<iframe class="border-none w-full h-200" src="https://player.bilibili.com/player.html?aid=1052071398"/>
+			</n-grid-item>
+
+			<n-grid-item>
+				<iframe class="border-none w-full h-200" src="https://player.bilibili.com/player.html?aid=1302745939"/>
+			</n-grid-item>
+		</n-grid>
 	</n-flex>
 </template>
