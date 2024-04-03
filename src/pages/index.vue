@@ -88,15 +88,15 @@ const supportPageLink = useLink({
 
 		<n-grid :x-gap="10" :y-gap="10" cols="1 s:3" responsive="screen">
 			<n-grid-item>
-				<iframe class="border-none w-full h-100" src="https://player.bilibili.com/player.html?aid=1400265936"/>
+				<iframe class="border-none w-full h-[25vh]" src="https://player.bilibili.com/player.html?aid=1400265936"/>
 			</n-grid-item>
 
 			<n-grid-item>
-				<iframe class="border-none w-full h-100" src="https://player.bilibili.com/player.html?aid=687077176"/>
+				<iframe class="border-none w-full h-[25vh]" src="https://player.bilibili.com/player.html?aid=687077176"/>
 			</n-grid-item>
 
 			<n-grid-item>
-				<iframe class="border-none w-full h-100" src="https://player.bilibili.com/player.html?aid=389441034"/>
+				<iframe class="border-none w-full h-[25vh]" src="https://player.bilibili.com/player.html?aid=389441034"/>
 			</n-grid-item>
 		</n-grid>
 
@@ -104,11 +104,11 @@ const supportPageLink = useLink({
 
 		<n-grid :x-gap="10" :y-gap="10" cols="1 s:2" responsive="screen">
 			<n-grid-item>
-				<iframe class="border-none w-full h-200" src="https://player.bilibili.com/player.html?aid=1052071398"/>
+				<iframe class="border-none w-full h-[25vh]" src="https://player.bilibili.com/player.html?aid=1052071398"/>
 			</n-grid-item>
 
 			<n-grid-item>
-				<iframe class="border-none w-full h-200" src="https://player.bilibili.com/player.html?aid=1302745939"/>
+				<iframe class="border-none w-full h-[25vh]" src="https://player.bilibili.com/player.html?aid=1302745939"/>
 			</n-grid-item>
 		</n-grid>
 	</n-flex>
